@@ -27,7 +27,7 @@ public class FollowCam : MonoBehaviour
 
     void FixedUpdate() {
     if (sprite) {
-        Vector3 spriteLoc = Camera.main.WorldToScreenPoint(sprite.transform.position);
+        Vector2 spriteLoc = Camera.main.WorldToScreenPoint(sprite.transform.position);
         Vector3 pos = transform.position;
 
         if (spriteLoc.x < lBound) {
