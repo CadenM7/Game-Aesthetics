@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AnimalPack_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 69
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74c20d03035add4aae61ec0630ed110
+      internalID: -450675037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 67
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f4015853b48149b5f28cc02875d71
+      internalID: 1156347667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 69
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad88274d6d7b85542bcc986d6f5a8765
+      internalID: 1401410936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 65
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6f21e3b2679c14ab904668ab7e69f9
+      internalID: -1044341575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 63
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d639ad66608b8ba42bfb6ffcf9675ed2
+      internalID: 2031866658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 66
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ad4e2e82d6124a99bba3df3132d12
+      internalID: 1309446211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 66
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f1ce3f1a0989343bfca01943935fe6
+      internalID: 1194922332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 52
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102f8d5668915f54c867676923f1c9a1
+      internalID: 1735338773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa795eab2d45fb34581b984836cd9422
+      internalID: 599693819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aea78bbb85644499fad7d56224bd6b
+      internalID: 1482123437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1162da760f7a9754a8ffc03ad864ef5c
+      internalID: -662750998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 36
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a73e3e1694ddd4887dac3e9062e9ce
+      internalID: 1484076987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 36
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc2035cc13f7e74697a0531e2e31609
+      internalID: -1355608570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715220fdb5aee824096d0aa823f53b44
+      internalID: -1956349166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec212b5527218f74abe68a2c8796dfb4
+      internalID: 1690706510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 5
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba74a00a6f31dc947bbc2a694782e1b3
+      internalID: 404911614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0460196debe31ad4182e5daac8da507c
+      internalID: 737466423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e7c2eb7a0b33b4c8d90ace387d214d
+      internalID: -1333376097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalPack_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055434b5d8cb4664b822461834eedebd
+      internalID: -1490903287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +525,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AnimalPack_11: 1484076987
+      AnimalPack_6: 1194922332
+      AnimalPack_15: 404911614
+      AnimalPack_10: -662750998
+      AnimalPack_12: -1355608570
+      AnimalPack_5: 1309446211
+      AnimalPack_1: 1156347667
+      AnimalPack_14: 1690706510
+      AnimalPack_2: 1401410936
+      AnimalPack_4: 2031866658
+      AnimalPack_13: -1956349166
+      AnimalPack_18: -1490903287
+      AnimalPack_16: 737466423
+      AnimalPack_17: -1333376097
+      AnimalPack_0: -450675037
+      AnimalPack_7: 1735338773
+      AnimalPack_8: 599693819
+      AnimalPack_9: 1482123437
+      AnimalPack_3: -1044341575
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
