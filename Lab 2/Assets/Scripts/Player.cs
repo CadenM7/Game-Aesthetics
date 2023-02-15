@@ -20,9 +20,6 @@ public class Player : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
-
-    
-
     // Update is called once per frame
     void Update()
     {
@@ -32,7 +29,6 @@ public class Player : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         //if (Input.GetKeyDown("e"))
         {
-            print("Entered..");
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = 0;
             Instantiate(prefab, pos, Quaternion.identity);
@@ -47,4 +43,23 @@ public class Player : MonoBehaviour
 
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
+
+    public void OnCollisionEnter2D(Collision2D collision2D)
+    {
+        print("Collided with seed");
+        if (collision2D.gameObject.CompareTag("seed"))
+        {
+            Physics2D.IgnoreLayerCollision(1, 2, true);
+
+        }
+    }
+    public void OnCollisionExit2D(Collision2D collision2D)
+    {
+        if (collision2D.gameObject.CompareTag("seed"))
+        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+            vertical = Input.GetAxisRaw("Vertical");
+        }
+    }
+
 }

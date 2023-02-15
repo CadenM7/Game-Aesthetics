@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public GameObject dialogBox;
     public TextMeshProUGUI dialogText;
 
+    public GameObject player;
+
     public void DialogShow(string text) {
         dialogBox.SetActive(true);
         StopAllCoroutines();
@@ -38,7 +40,6 @@ public class GameManager : MonoBehaviour
         }
 
     }
-
 
     // Start is called before the first frame update
     void Start()
