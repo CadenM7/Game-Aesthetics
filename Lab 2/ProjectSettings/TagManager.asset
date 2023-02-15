@@ -38,9 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Tile
+    uniqueID: 3713977829
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: DefaultDance
-    uniqueID: 1573680893
     locked: 0
