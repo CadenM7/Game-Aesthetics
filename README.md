@@ -4,9 +4,9 @@ The name of our game - parrot cage.
 
 The intent of your game - to further develop our skills, specifically to get better at using the graphics available to us.
 
-Narrative structure - You learn through some mystical reality that you have awoken as a parrot in a cage, unable to fly you see a hole at the top of the cage. But the Gods have taken favor on you, you have been given the ability to place bird seeds at will, and your objective is to stack them and exit the cage.
+Narrative structure - You learn through some mystical reality that you have awoken as a parrot in a cage, unable to fly you see a hole at the top of the cage. But the Gods have taken favor on you.
 
-Mechanics - You may move around inside the cage, collide with walls, pick up seeds, and stack them, to eventually climb them to exit the cage.
+Mechanics - You may move around inside the cage, collide with walls, spit up seeds and discover clues to exit the cage.
 
 Aesthetics - The aesthetics are pretty simple, most things are drawn 8-bit style.
 
