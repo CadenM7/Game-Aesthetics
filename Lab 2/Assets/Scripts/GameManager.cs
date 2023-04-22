@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
+    private int score;
+
+    public TextMeshProUGUI scoreText;
+
     public void DialogShow(string text) {
         dialogBox.SetActive(true);
         StopAllCoroutines();
@@ -40,6 +44,22 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void IncScore(int val) {
+        score += val;
+        if (score < 0) {
+            score = 0;
+        }
+        scoreText.text = "Score : " + score;
+    }
+
+    public void Win()
+    {
+        if (score == 15) {
+            DialogShow("You have all 15 seeds !!! You are free from this cage.");
+            // Player.body.velocity = new Vector2(0,0);
+        }
+    }
+
 
     // Start is called before the first frame update
     void Start()

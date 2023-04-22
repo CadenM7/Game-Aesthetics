@@ -5,7 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    private Rigidbody2D body;
+    public AudioSource Audio;
+
+    public Rigidbody2D body;
     public float horizontal;
     public float vertical;
 
@@ -25,14 +27,6 @@ public class Player : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-            
-        if (Input.GetMouseButtonDown(0))
-        //if (Input.GetKeyDown("e"))
-        {
-            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pos.z = 0;
-            Instantiate(prefab, pos, Quaternion.identity);
-        }
     }
 
     void FixedUpdate() {
@@ -44,22 +38,14 @@ public class Player : MonoBehaviour
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
 
-    public void OnCollisionEnter2D(Collision2D collision2D)
-    {
-        print("Collided with seed");
-        if (collision2D.gameObject.CompareTag("seed"))
-        {
-            Physics2D.IgnoreLayerCollision(1, 2, true);
-
+    void OnTriggerEnter2D(Collider2D col) {
+        print("hit an object");
+        if (col.gameObject.tag  == "seed") {
+            Audio.Play();
+            GameManager.Instance.IncScore(1);
+            print("Score increased by 1");
         }
-    }
-    public void OnCollisionExit2D(Collision2D collision2D)
-    {
-        if (collision2D.gameObject.CompareTag("seed"))
-        {
-            horizontal = Input.GetAxisRaw("Horizontal");
-            vertical = Input.GetAxisRaw("Vertical");
-        }
-    }
+        Destroy(col.gameObject);
+    }    
 
 }
