@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -15,7 +16,11 @@ public class GameManager : MonoBehaviour
 
     private int score;
 
+    private int getScore;
+
     public TextMeshProUGUI scoreText;
+
+    public TilemapCollider2D CompleteObj;
 
     public void DialogShow(string text) {
         dialogBox.SetActive(true);
@@ -35,21 +40,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Awake() {
+   void Awake() {
         if (Instance == null) {
             Instance = this;
             DontDestroyOnLoad(gameObject);
         } else {
             Destroy(gameObject);
         }
-
     }
+    
     public void IncScore(int val) {
         score += val;
         if (score < 0) {
             score = 0;
         }
-        scoreText.text = "Score : " + score;
+        scoreText.text = "Seeds : " + score;
     }
 
     public void Win()
@@ -60,16 +65,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        CompleteObj = GetComponent<TilemapCollider2D>();
     }
-
-    // Update is called once per frame
-    void Update()
+ 
+    private void Update ()
     {
-        
+        if (score == 15)
+        {
+            CompleteObj.enabled = false;
+        }
     }
 }
