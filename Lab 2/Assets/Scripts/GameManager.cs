@@ -61,13 +61,12 @@ public class GameManager : MonoBehaviour
     {
         if (score == 15) {
             DialogShow("You have all 15 seeds !!! You are free from this cage.");
-            // Player.body.velocity = new Vector2(0,0);
         }
     }
 
     private void Start()
     {
-        CompleteObj = GetComponent<TilemapCollider2D>();
+        //CompleteObj = GetComponent<TilemapCollider2D>();
     }
  
     private void Update ()
